@@ -1,0 +1,178 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+}
+
+body{
+    background: linear-gradient(45deg, pink ,red);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    position: relative;
+    background: rgba(255, 255, 255, .3);
+    padding: 9rem;
+    height: 25rem;
+    border-radius: 20px;
+    border-left: 1px solid rgba(255, 255, 255, .3);
+    border-top: 1px solid rgba(255, 255, 255, .3);
+    box-shadow: 20px 20px 40px -6px rgba(0, 0, 0, .2);
+    text-align: center;
+}
+.container .time p{
+    color: white;
+    font-weight: 500;
+    opacity: .7;
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+}
+.arabe{
+    border: 1px solid;
+    padding: 1rem;
+}
+.merci{
+    border: 1px solid;
+    padding: 1rem;
+    border-radius: 20px;
+}
+#counter-label{
+    color: black;
+    text-decoration: none;
+    font-size: 5rem;
+    padding: 1rem;
+    border-radius: 50px;
+    width: 10rem;
+    background: rgba(255, 255, 255, .3);
+    border: rgba(255, 255, 255, .3);
+    transform: translate(0px,5px);
+    -webkit-transform: translate(0px,5px);
+}
+#counter-label:hover{
+    cursor: pointer;
+}
+button{
+    margin-left: 1rem;
+}
+.bouton{
+    display: flex;
+}
+.bouton .settings{
+    height: 2.5rem;
+    width: 3rem;
+    border-radius: 2rem;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, .3);
+    border: rgba(255, 255, 255, .3);
+}
+.bouton .settings:hover{
+    cursor: pointer;
+}
+.bouton .settings img{
+    height: 1.5rem;
+    width: 1.5rem;
+}
+.bouton .settings img:hover{
+    height: 2rem;
+    width: 2rem;
+    margin-top: 3px;
+    transition: all .3s;
+}
+.bouton .reset{
+    height: 2.5rem;
+    width: 3rem;
+    border-radius: 2rem;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, .3);
+    border: rgba(255, 255, 255, .3);
+}
+.bouton .reset:hover{
+    cursor: pointer;
+}
+.bouton .reset img{
+    height: 1.5rem;
+    width: 1.5rem;
+}
+.bouton .reset img:hover{
+    height: 2rem;
+    width: 2rem;
+    margin-top: 3px;
+    transition: all .3s;
+}
+.bouton .mute{
+    height: 2.5rem;
+    width: 3rem;
+    border-radius: 2rem;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, .3);
+    border: rgba(255, 255, 255, .3);
+}
+.bouton .mute:hover{
+    cursor: pointer;
+}
+.bouton .mute img{
+    height: 1.5rem;
+    width: 1.5rem;
+}
+.bouton .mute img:hover{
+    height: 2rem;
+    width: 2rem;
+    margin-top: 3px;
+    transition: all .3s;
+}
+.bouton .plus{
+    height: 2.5rem;
+    width: 3rem;
+    border-radius: 2rem;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, .3);
+    border: rgba(255, 255, 255, .3);
+}
+.bouton .plus:hover{
+    cursor: pointer;
+}
+.bouton .plus img{
+    height: 1.5rem;
+    width: 1.5rem;
+}
+.bouton .plus img:hover{
+    height: 2rem;
+    width: 2rem;
+    margin-top: 3px;
+    transition: all .3s;
+}
+.themes button{
+    height: 3.5rem;
+    width: 3rem;
+}
+button#b1 {
+    background: linear-gradient(45deg, pink, red);
+    border: none;
+}
+button#b2 {
+    background: linear-gradient(45deg, yellow, green);
+    border: none;
+}
+button#b3 {
+    background: linear-gradient(45deg, white, blue);
+    border: none;
+}
+button#b4 {
+    background: linear-gradient(45deg, yellow, orange);
+    border: none;
+}
+button#b5 {
+    background: linear-gradient(45deg, white, brown);
+    border: none;
+}
+button#b6 {
+    background: linear-gradient(45deg, white, grey);
+    border: none;
+}
