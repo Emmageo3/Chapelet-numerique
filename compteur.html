@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="compteur.css">
+    <title>Chapelet Numérique</title>
+</head>
+<body id="yaram">
+    
+
+    <div class="container">
+        <div class="time">
+            <p id="arabe"></p>
+            <p id="p1"></p>
+            <p class="merci">ٱلْحَمْدُ لِلَّٰهِ</p>
+            <p id="tog"><span id="heure"></span></p>
+        </div>
+        <div class="compteur">
+            <div>
+                <center><button onclick="incrementClick()" id="counter-label">0</button></center><br>
+            </div>
+            <div id="progress-bar"></div>
+            <p id="boucle"></p>
+            <center>
+                <div class="bouton">
+                    <a href="settings.html"><button class="settings"><img src="setting.png" alt="parametres"></button></a>
+                    <!--<button onclick="incrementClick()">Commencer</button>-->
+                    <button class="reset" onclick="resetCounter()"><img src="reset.png" alt="recommencer"></button>
+                    <button class="mute" onclick="audio.pause()"><img src="mute-speaker.png" alt="mute"></button>
+                </div>
+            </center>
+        </div>
+    </div>
+
+    <script src="compteur.js"></script>
+
+</body>
+</html>
